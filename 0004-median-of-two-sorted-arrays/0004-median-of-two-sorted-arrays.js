@@ -10,9 +10,8 @@ var findMedianSortedArrays = function(nums1, nums2) {
    let b = Math.floor(a.length/2)
     return (a[b])
     }else{
-        let c =Math.floor(a.length/2)
-        let d =Math.floor(a.length/2)-1
-        return (a[c]+a[d])/2
+        let c =a[(a.length/2)]+a[(a.length/2)-1]
+        return c/2
     }
    
 };
