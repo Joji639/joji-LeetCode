@@ -4,7 +4,7 @@ class Solution:
         right=len(s)-1
         s=list(s)
         vowels=["a","e","i","o","u","A","E","I","O","U"]
-        while left < right:
+        while left <= right:
             if s[left] not in vowels:
                 left+=1
             elif s[right] not in vowels:
